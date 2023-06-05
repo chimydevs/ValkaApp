@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contadores.ContadoresActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="aca van los contadores para los heroes"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:paddingVertical="100dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@color/colorBackground"
+        >
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

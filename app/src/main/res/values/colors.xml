@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!-- Color primario: naranja intenso -->
+    <color name="colorPrimary">#FF9800</color>
+
+    <!-- Color secundario: amarillo cálido -->
+    <color name="colorSecondary">#FFC107</color>
+
+    <!-- Color de fondo: naranja claro y suave -->
+    <color name="colorBackground">#FFF3E0</color>
+
+    <!-- Color de texto: naranja oscuro -->
+    <color name="colorText">#FF5722</color>
+
+    <!-- Color de botón: naranja medio -->
+    <color name="colorButton">#FFB74D</color>
+
+
+</resources>
