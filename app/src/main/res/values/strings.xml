@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">ValkaApp</string>
+    <string name="plus">+</string>
+    <string name="minum">-</string>
+    <!-- Heroe1 -->
+    <string name="heroe1">Heroe N°1</string>
+    <style name="heroe1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Heroe2 -->
+    <string name="heroe2">Heroe N°2</string>
+    <style name="hereo2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Heroe3 -->
+    <string name="heroe3">Heroe N°3</string>
+    <style name="heroe3">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Fortaleza -->
+    <string name="fortaleza">Fortaleza</string>
+    <style name="fortaleza">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
 </resources>

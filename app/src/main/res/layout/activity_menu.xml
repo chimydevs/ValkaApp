@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,47 +9,51 @@
     android:padding="16dp"
     tools:context=".MenuActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnContadores"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorButton"
-        android:text="Contadores"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
-        android:textStyle="bold">
-
-    </androidx.appcompat.widget.AppCompatButton>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnComoJugar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorButton"
-        android:text="Como jugar"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
-        android:textStyle="bold">
-
-    </androidx.appcompat.widget.AppCompatButton>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnGaleria"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorButton"
-        android:text="Galeria"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
-        android:textStyle="bold">
-
-    </androidx.appcompat.widget.AppCompatButton>
-
-
     <ImageView
-        android:layout_width="wrap_content"
+        android:id="@+id/imageValka"
+        android:layout_width="match_parent"
+        android:layout_height="441dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/valka_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/valkaicon">
-    </ImageView>
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnContadores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorButton"
+            android:text="Contadores"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnComoJugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorButton"
+            android:text="Como jugar"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorButton"
+            android:text="Galeria"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 </LinearLayout>
+
