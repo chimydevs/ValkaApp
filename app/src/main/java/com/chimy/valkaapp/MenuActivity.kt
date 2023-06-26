@@ -19,7 +19,7 @@ class MenuActivity : AppCompatActivity() {
         btnGaleria.setOnClickListener { navigateToGaleria() }
     }
 
-    fun navigateToContadores(){
+    private fun navigateToContadores(){
         val intent = Intent(this, ContadoresActivity::class.java)
         startActivity(intent)
     }

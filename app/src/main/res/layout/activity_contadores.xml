@@ -15,6 +15,7 @@
         android:padding="16dp">
 
         <!-- Contenedor del primer héroe -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,7 +46,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/vidaTextView1"
+                        android:id="@+id/vidaHeroe1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Vida: 100"
@@ -58,14 +59,14 @@
                         android:orientation="horizontal">
 
                         <Button
-                            android:id="@+id/vidaDecrementButton1"
+                            android:id="@+id/vidaDecrementHeroe1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="-"
                             android:backgroundTint="@color/colorButton" />
 
                         <Button
-                            android:id="@+id/vidaIncrementButton1"
+                            android:id="@+id/vidaIncrementHeroe1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="+"
@@ -90,7 +91,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/ataqueTextView1"
+                            android:id="@+id/ataqueHeroe1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Ataque: 10"
@@ -103,7 +104,7 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/ataqueDecrementButton1"
+                                android:id="@+id/ataqueDecrementHeroe1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="-"
@@ -128,7 +129,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/defensaTextView1"
+                            android:id="@+id/defensaHeroe1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Defensa: 5"
@@ -141,14 +142,14 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/defensaDecrementButton1"
+                                android:id="@+id/defensaDecrementHeroe1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:backgroundTint="@color/colorButton" />
 
                             <Button
-                                android:id="@+id/defensaIncrementButton1"
+                                android:id="@+id/defensaIncrementHeroe1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="+"
@@ -204,14 +205,14 @@
                         android:orientation="horizontal">
 
                         <Button
-                            android:id="@+id/vidaMinun2"
+                            android:id="@+id/vidaDecrementHeroe2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="-"
                             android:backgroundTint="@color/colorButton" />
 
                         <Button
-                            android:id="@+id/vidaPlus2"
+                            android:id="@+id/vidaIncrementHeroe2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="+"
@@ -236,7 +237,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/ataqueTextView2"
+                            android:id="@+id/ataqueHeroe2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Ataque: 10"
@@ -249,14 +250,14 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/ataqueDecrementButton2"
+                                android:id="@+id/ataqueDecrementHeroe2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:backgroundTint="@color/colorButton" />
 
                             <Button
-                                android:id="@+id/ataqueIncrementButton2"
+                                android:id="@+id/ataqueIncrementHeroe2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="+"
@@ -287,14 +288,14 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/defensaDecrementButton2"
+                                android:id="@+id/defensaDecrementHeroe2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:backgroundTint="@color/colorButton" />
 
                             <Button
-                                android:id="@+id/defensaIncrementButton2"
+                                android:id="@+id/defensaIncrementHeroe2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="+"
@@ -339,7 +340,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/vidaTextView3"
+                        android:id="@+id/vidaHeroe3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Vida: 100"
@@ -352,14 +353,14 @@
                         android:orientation="horizontal">
 
                         <Button
-                            android:id="@+id/vidaDecrementButton3"
+                            android:id="@+id/vidaDecrementHeroe3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/colorButton"
                             android:text="-" />
 
                         <Button
-                            android:id="@+id/vidaIncrementButton3"
+                            android:id="@+id/vidaIncrementHeroe3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/colorButton"
@@ -384,7 +385,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/ataqueTextView3"
+                            android:id="@+id/ataqueHeroe3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Ataque: 10"
@@ -397,14 +398,14 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/ataqueDecrementButton3"
+                                android:id="@+id/ataqueDecrementHeroe3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorButton"
                                 android:text="-" />
 
                             <Button
-                                android:id="@+id/ataqueIncrementButton1"
+                                android:id="@+id/ataqueIncrementHeroe3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorButton"
@@ -422,7 +423,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/defensaTextView3"
+                            android:id="@+id/defensaHeroe3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Defensa: 5"
@@ -435,14 +436,14 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/defensaDecrementButton3"
+                                android:id="@+id/defensaDecrementHeroe3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorButton"
                                 android:text="-" />
 
                             <Button
-                                android:id="@+id/defensaIncrementButton3"
+                                android:id="@+id/defensaIncrementHeroe3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorButton"
@@ -473,7 +474,7 @@
 
             <!-- Contador de Vida de la Fortaleza -->
             <TextView
-                android:id="@+id/fortalezaVidaTextView"
+                android:id="@+id/fortalezaVida"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Vida: 50"
@@ -490,14 +491,14 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/fortalezaDecrementButton"
+                    android:id="@+id/fortalezaDecrement"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
                     android:backgroundTint="@color/colorButton" />
 
                 <Button
-                    android:id="@+id/fortalezaIncrementButton"
+                    android:id="@+id/fortalezaIncrement"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="+"
